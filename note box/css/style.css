@@ -1,0 +1,29 @@
+textarea{
+	font-size: 12px;
+	font-family: "Segoe UI"; 
+	border-radius: 3px;
+	text-align: left;
+	resize: none;
+	overflow: auto;
+	padding: 5px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    border: 1px solid #a8a8ab;
+	box-shadow: none;
+	outline-style: none;
+}
+textarea#hoverBlue:focus,
+textarea#hoverBlue:hover
+{
+		outline: none;
+		outline-style: none;
+		border-color: #719ECE;
+		box-shadow: 0 0 10px #719ECE;	
+}
+
+/* input#txtbox:active, input#txtbox:focus {
+	outline: none;
+	outline-style: none;
+	border-color: #719ECE;
+	box-shadow: 0 0 10px #719ECE;
+} */
